@@ -2,7 +2,7 @@
 
 1] Implicit tiling
 
-Report with implicit tiling disabled:
+Report with implicit tiling disabled - includes b3dm files validation
 
 ```
  $ npx ts-node src\main.ts --tilesetsDirectory D:\dev\github.com\bertt\3dtiles_validator_testing\implicit_tiling_testing\implicit_tiling_disabled
@@ -44,7 +44,7 @@ Validated 1 files
 ```
 
 
-Report with implicit tiling enabled:
+Report with implicit tiling enabled - no validation of b3dm files?
 
 ```
  npx ts-node src\main.ts --tilesetsDirectory D:\dev\github.com\bertt\3dtiles_validator_testing\implicit_tiling_testing\implicit_tiling_enabled
